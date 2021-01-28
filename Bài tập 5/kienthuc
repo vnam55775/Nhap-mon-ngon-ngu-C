@@ -1,0 +1,18 @@
+a) Khái niệm cú pháp khai báo biến : là tập hợp các quy tắc nhằm xác định cách thức để viết và dịch trong ngôn ngữ lập trình C. 
+Cú pháp : Một hàm C phải bao gồm một kiểu trả về (kiểu đó trả về void nếu không có giá trị trả về),
+một tên xác định, một danh sách các tham số để trong ngoặc đơn (nếu danh sách này không có tham số nào thì ghi là void bên trong dấu ngoặc),
+sau đó là khối các câu lệnh (hay khối mã) và/hay các câu lệnh return.
+(Nếu kiểu trả về là void thì mệnh đề này không bắt buộc phải có.
+Ngược lại, cũng không bắt buộc chỉ có một câu lệnh return mà tùy theo kỹ thuật, người lập trình có thể dẫn dòng mã sao cho mọi hướng chẻ nhánh đều được trả về đúng kiểu.)
+b) Khái niệm biến toàn cục và biến cục bộ: Biến toàn cục là biến được khai báo ở phân cấp cao hơn vị trí đang xác định.
+Biến cục bộ là biến được khai báo ở cùng phân cấp tại vị trí đang xác định.
+Vòng đời của biến toàn cục và biến cục bộ bắt đầu khi khối lệnh chứa nó bắt đầu (khối lệnh bắt đầu bằng dấu “{“) và kết thúc khi khối lệnh chứa nó kết thúc (khối lệnh kết thúc bằng dấu “}”).
+Biến cục bộ được ưu tiên sử dụng hơn biến toàn cục trong trường hợp 2 biến này trùng tên.
+c) Khái niệm hàm : Biến toàn cục là biến được khai báo ở phân cấp cao hơn vị trí đang xác định.
+Biến cục bộ là biến được khai báo ở cùng phân cấp tại vị trí đang xác định.
+Vòng đời của biến toàn cục và biến cục bộ bắt đầu khi khối lệnh chứa nó bắt đầu (khối lệnh bắt đầu bằng dấu “{“) và kết thúc khi khối lệnh chứa nó kết thúc (khối lệnh kết thúc bằng dấu “}”).
+Biến cục bộ được ưu tiên sử dụng hơn biến toàn cục trong trường hợp 2 biến này trùng tên.
+Phân loại : Biến toàn cục là biến được khai báo ở phân cấp cao hơn vị trí đang xác định.
+Biến cục bộ là biến được khai báo ở cùng phân cấp tại vị trí đang xác định.
+Vòng đời của biến toàn cục và biến cục bộ bắt đầu khi khối lệnh chứa nó bắt đầu (khối lệnh bắt đầu bằng dấu “{“) và kết thúc khi khối lệnh chứa nó kết thúc (khối lệnh kết thúc bằng dấu “}”).
+Biến cục bộ được ưu tiên sử dụng hơn biến toàn cục trong trường hợp 2 biến này trùng tên.
